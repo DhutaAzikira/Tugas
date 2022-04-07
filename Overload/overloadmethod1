@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LatihanOverloadingMethod
+namespace overloadingmethod
 {
-    internal class Numbers
+    public class numbers
     {
-        //overloading method
         public int FindMinimum(int number1, int number2)
         {
             int minim;
@@ -25,7 +24,7 @@ namespace LatihanOverloadingMethod
             return minim;
         }
 
-        //overloading method
+
         public int FindMinimum(int number1, int number2, float number3)
         {
             int minim;
@@ -40,7 +39,7 @@ namespace LatihanOverloadingMethod
             }
             else
             {
-                minim = (int)number3; // cast
+                minim = (int)number3;
             }
 
             return minim;
