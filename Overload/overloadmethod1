@@ -88,7 +88,7 @@ namespace overloadingmethod
 
         static void Main(string[] args)
         {
-            Numbers number = new Numbers();
+            numbers number = new numbers();
 
             Console.WriteLine("Minimum #1: {0}", number.FindMinimum(3, 1));
             Console.WriteLine("Minimum #2: {0}", number.FindMinimum(3, 2, 4));
